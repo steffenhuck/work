@@ -1,5 +1,5 @@
 :root{
-  --bg: #f4f7fa;
+  --bg: #FCFCFB;
   --ink: #1f2428;
   --col-max: 640px;
   --gutter: clamp(20px, 5vw, 64px);
