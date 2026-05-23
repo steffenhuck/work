@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://steffenhuck.github.io/work/sitemap_work.xml
