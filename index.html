@@ -75,6 +75,19 @@
     .section-gap{
       margin-top: 24px;
     }
+    .links > .pair:first-child{
+      margin-top: 0;
+    }
+    .plain{
+      color: inherit;
+      text-decoration: none;
+    }
+    .coda{
+      margin-top: 42px;
+    }
+    .quiet, .quiet .sep{
+      font-weight: 300;
+    }
   </style>
 </head>
 <body>
@@ -82,22 +95,30 @@
     <header class="masthead">
       <a class="home" href="../" aria-label="Back to homepage">steffen huck</a>
       <p class="idblock">
-        research professor, behavioral economics and human agency, wzb<br>
-        emeritus professor of economics, ucl
+        research professor, behavioral economics and human agency, <a class="plain" href="https://www.wzb.eu">wzb</a><br>
+        emeritus professor of economics, <a class="plain" href="https://www.ucl.ac.uk">ucl</a>
       </p>
     </header>
-    <nav class="links" aria-label="External links">
-      <a href="https://www.wzb.eu/en/persons/steffen-huck">wzb profile</a>
+    <nav class="links" aria-label="Links">
       <div class="pair">
+        <a href="https://steffenhuck.github.io/cv/">cv</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://steffenhuck.github.io/publications/">publications</a>
+        <span class="sep" aria-hidden="true">|</span>
+        <a href="https://steffenhuck.github.io/drafts/">current drafts</a>
+      </div>
+      <div class="pair">
+        <a href="https://www.wzb.eu/en/persons/steffen-huck">wzb profile</a>
+        <span class="sep" aria-hidden="true">|</span>
         <a href="https://scholar.google.com/citations?hl=en&user=FvBiCdwAAAAJ">google scholar</a>
         <span class="sep" aria-hidden="true">|</span>
         <a href="https://www.linkedin.com/in/steffen-huck">linkedin</a>
       </div>
-      <div class="pair section-gap">
-        <a href="https://steffenhuck.github.io/drafts/">current drafts</a>
+      <div class="pair coda quiet">
+        <a href="https://steffenhuck.github.io/fundraising/">twenty years of research on fundraising</a>
       </div>
-      <div class="pair">
-        <a href="https://steffenhuck.github.io/fundraising/">fundraising</a>
+      <div class="pair quiet">
+        <a href="https://steffenhuck.github.io/by-works/">by-works</a>
       </div>
     </nav>
   </main>
